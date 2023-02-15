@@ -91,10 +91,10 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-pink);
   align-items: center;
-  color: var(--color-white);
   padding: 16px;
+  color: var(--color-white);
+  background-color: var(--color-pink);
 }
 .navbar__menu {
   display: flex;
@@ -102,6 +102,7 @@ p {
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
+  color: white;
 }
 .navbar__menu__item {
   padding: 8px 12px;
@@ -332,4 +333,23 @@ p {
   margin-left: -12px;
   margin-top: 8px;
   background-color: var(--color-dark-white);
+}
+#contact {
+  background-color: var(--color-pink);
+}
+.contact__title,
+.contact__email,
+.contact__rights {
+  color: var(--color-white);
+}
+.contact__title {
+  margin: 32px 0;
+}
+.contact__links {
+  font-size: var(--font-large);
+  margin: 24px 0;
+}
+.contact__links i:hover {
+  transform: scale(1.1);
+  color: var(--color-yellow);
 }
