@@ -8,7 +8,7 @@
   --color-pink: #f5bdbb;
   --color-dark-pink: #ff6863;
   --color-dark-grey: #4d4d4d;
-  --color-grey: #616161;
+  --color-grey: #696868;
   --color-light-grey: #7c7979;
   --color-blue: #73aace;
   --color-yellow: #fff7d1;
@@ -292,6 +292,37 @@ p {
 .project__summary__description p,
 .project__summary__description p {
   color: var(--color-blue);
+}
+.project__item {
+  display: flex;
+  height: 12rem;
+  margin-bottom: 30px;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px,
+    rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+}
+.project__img {
+  width: 250px;
+  border-radius: 1.5rem;
+  margin: 1rem;
+  height: 90%;
+  box-shadow: 0 2px 10px 4px rgb(0 0 0 / 20%);
+}
+.project__description {
+  text-align: left;
+  padding: 10px;
+}
+.project__name a {
+  color: var(--color-black);
+  font-size: var(--font-regular);
+}
+.project__name a:hover {
+  text-decoration: underline;
+}
+.project__tool {
+  color: var(--color-grey);
+  font-size: var(--font-small);
 }
 .summary__desc {
   font-size: var(--font-micro);
